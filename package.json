@@ -1,0 +1,25 @@
+{
+  "name": "estudo_jest",
+  "version": "1.0.0",
+  "description": "estudo inicial jest ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "JM",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-html-reporter": "^3.5.0"
+  },
+    "jest": {
+      "reporter":
+      [ "default",
+      ["./node_modules/jest-html-reporter", { "pageTitle": "Test report"}]
+
+      ]
+
+    }
+}
